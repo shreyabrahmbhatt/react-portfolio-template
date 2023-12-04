@@ -1,0 +1,46 @@
+// ContactPage.module.scss
+@import 'src/variables.modules.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;  
+}
+
+.form-box {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid $dark;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: $white;
+}
+
+form {
+  display: grid;
+  gap: 20px;
+}
+
+.TextField {
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid $dark;
+  border-radius: 4px;
+}
+
+.Button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: $dark;
+  color: $white;
+  border: none;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: lighten($dark, 10%);
+  }
+}
