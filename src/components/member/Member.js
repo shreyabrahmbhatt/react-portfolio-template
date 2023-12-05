@@ -16,10 +16,10 @@ const Member = () => {
     if (selectedFile) {
         // Set your AWS credentials
         AWS.config.update({
-          accessKeyId: 'ASIAWIGGIHCI7JBMF4FW',
-          secretAccessKey: 'uUAGIpVOl4m+ZvrV4vu3FRxkkGLE+Wb7G3xoKFp+',
+          accessKeyId: 'ASIAWIGGIHCIV3MLHO4E',
+          secretAccessKey: 'aKKC9SVCTfWmmg3QM1LFUQ9U3XOmmBNbv9SaNURq',
           region: 'us-east-1', // e.g., 'us-east-1'
-          sessionToken: 'FwoGZXIvYXdzEAkaDD3DBkfbIpf3DtplqSLJAauOF96fPgMc+pWWpDwiAzwj1M6CJ/xY8DIaxI7y0PRiE/MAk0shsstI0BwVxCVglDP6piSPX3V9Ri/xSquQvJJhLeZ18UAqecuOGaJAVlDthEC3okWzVrhQwl11ID8XBGBk47JtiWGEs5ZQcLIkIvliLzEJnIlQ9tuIzrQKqwVEygjs3W/xb7HphlQ8bS1iUdUDj/F4o29AeD1p0Si7wmc/oTkwmfwh1aXJruhvO3wRptLHyrRupf/PYoSKsEXEeQ0ICH2r+qdW2yir5LerBjItZMFQWsScgOp4Yh47COXG+8LOGmUsNfhk3nvvH0FSsZ4UYVJjHPm2txp/Wkgq'
+          sessionToken: 'FwoGZXIvYXdzEBMaDAsXGpvBv3kR6nk3IyLJAbvoapeyb/14ViEWxyCIVEG6djP+bCW0REkOLz3nfvZxROv1lBe3gSusa7dK7PjAI8xl0I+P145b059PA43I+I4QPr0WYLC70RojC0kHRY+T9hF5L014YSfOdJ7BCWzvt5qGdXYmJvsC3/iFLzJ19z5SVXOenICcazoxh23eJDnSJxvfskgIaebqRk4FScYpd8lUF/ZsgezjCKFVtJM2Wq3wk0QeR0KvnIHmXla+qZ4z1cKWX3dr0OAG+knFKC4pVBAy0WaveEDJlCjV9rmrBjItEq6Kr1S7K+x3LtD5o2R0zacrEnFgLtO2oplHKEcORuAg3V9atezSH2digIzo'
         });
    
         // Create an S3 instance
