@@ -1,0 +1,39 @@
+// Member.module.scss
+@import 'src/variables.modules.scss';
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: $lightgray;
+
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: $dark;
+  }
+
+  .description {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: $dark;
+  }
+
+  .fileInput {
+    display: none;
+  }
+
+  .uploadButton {
+    margin-top: 20px;
+  }
+
+  .uploadIcon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+}

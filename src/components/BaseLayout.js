@@ -8,6 +8,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Box, Grid } from '@mui/material';
 import ParticlesBg from './particles/ParticlesBg';
 import ContactPage from './contact/ContactPage';
+import Member from './member/Member';
 // import { logGa } from '../utils/log';
 
 export default function BaseLayout() {
@@ -60,6 +61,7 @@ export default function BaseLayout() {
             <Route exact path={'/about'} element={<About />} />
             <Route exact path={'/portfolio'} element={<Portfolio />} />
             <Route exact path={'/contact'} element={<ContactPage />} />
+            <Route exact path={'/member'} element={<Member />} />
           </Routes>
         </Grid>
         <Grid item>
